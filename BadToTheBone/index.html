@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Bad to the bone</title>
+  </head>
+  <style>
+    body {
+      background-color: black;
+    }
+    h1 {
+  color: whitesmoke;
+}
+  </style>
+  <body>
+    <h1>💀press Bad to the bone💀</h1>
+    <img src="skull.gif" width="600" onclick="playRiffSound()">
+    <audio id="riff" src="bad-to-the-bone.mp3"></audio>
+    <script>
+      function playRiffSound() {
+        var riffSound = document.getElementById("riff");
+        riffSound.play();
+      }
+    </script>
+  </body>
+</html>
